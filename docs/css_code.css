@@ -1,1 +1,9 @@
-body {font-family: arial, helvetica, sans-serif;}
+body {
+    font-family: arial, helvetica, sans-serif;
+    background-color:#add8e6;
+    color:maroon;
+    padding: 5px;
+     }
+h1 {
+    border: 5px solid orange;
+    }
