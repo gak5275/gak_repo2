@@ -13,3 +13,5 @@ nav {
 img {
     border: 10px solid green;
 }
+figure {width:30%; margin:auto; padding-top: 1vw; padding-bottom: 1vw;}
+figcaption {font-style: italic; font-size: smaller;}
