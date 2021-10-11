@@ -12,11 +12,10 @@ nav {
 }
 img {
     border: 10px solid green;
-    margin: auto;
 }
-/*figure {width:30%; margin:auto; padding-top: 1vw; padding-bottom: 1vw;}
+figure {width:30%; margin:auto; padding-top: 1vw; padding-bottom: 1vw;}
 figcaption {font-style: italic; font-size: smaller;}
-img.photo {max-width:500px; width:100%}
+/*img.photo {max-width:500px; width:100%}
 .center {
   display: block;
   margin-left: auto;
