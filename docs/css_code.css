@@ -13,7 +13,7 @@ nav {
 img {
     border: 10px solid green;
 }
-figure {width:100%; margin:50%; padding-top: 1vw; padding-bottom: 1vw;}
+figure {width:30%; margin:auto; padding-top: 1vw; padding-bottom: 1vw;}
 figcaption {font-style: italic; font-size: smaller;}
 /*img.photo {max-width:500px; width:100%}
 .center {
