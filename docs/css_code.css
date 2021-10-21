@@ -3,18 +3,16 @@ body {
     background-color:#add8e6;
     color:maroon;
     padding: 5px;
-    display:flex;
-    flex-direction: row;
      }
 h1 {
     border: 5px solid orange;
     }
 nav {
     border: 5px solid blue;
-}
+    }
 img {
     border: 10px solid green;
-}
-figure {flex: 1; margin: auto; padding-top: 1vw; padding-bottom: 1vw;}
+    }
+figure {flex: 1; margin: auto; padding-top: 1vw; padding-bottom: 1vw; display:flex; flex-direction: row;}
 figcaption {font-style: italic; font-size: smaller;}
 img.photo {max-width:1000px; width:100%}
