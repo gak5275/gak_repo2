@@ -15,4 +15,4 @@ img {
     }
 figure {margin: auto; padding-top: 1vw; padding-bottom: 1vw;}
 figcaption {font-style: italic; font-size: smaller;}
-img.photo {flex:1; display:flex;}
+img.photo {flex:1; display:flex; width:50%;}
