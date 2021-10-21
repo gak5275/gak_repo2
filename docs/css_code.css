@@ -4,6 +4,7 @@ body {
     color:maroon;
     padding: 5px;
     display:flex;
+    flex-direction: row;
      }
 h1 {
     border: 5px solid orange;
