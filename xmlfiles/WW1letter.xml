@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <!--org = organization or group of people-->
+    <!--indv = person other than the writer and who they are writing to-->
+    <!--If an element has the attribute type="w", then the writer of the letter is associated with it in some way-->
+
+    <letter n="1">
+        <head>
+            <source>[Letter from Marian Baldwin,</source>
+            <date>June 30, 1917]</date>
+            <place>On Board La Touraine,</place>
+            <date when="1917-06-30">June 30th, 1917.</date>
+        </head>
+        <para n="1"> Even now that we are out of sight of <place>land</place>, it seems impossible
+            that I am <act type="w">actually off</act> to <place>France</place> and, for <time
+                type="w">the first time in my life</time>, <act type="w">traveling alone</act>.
+            Everything has happened so quickly since the <org>American Fund for French Wounded</org>
+            <act>found an opening for me</act> in <place>Paris</place> that I suppose I am still
+            somewhat dazed and bewildered. The fact that I don't <act type="w">know what it will all
+                be like and that I can't look ahead</act> makes it easier to <act type="w">be happy
+                and live in the present</act>. Of course I have <act type="w">had a bit of a
+                taste</act> in <place>New York</place> of the <act>work</act> that the <org>A. F. F.
+                W.</org> is doing but its <place>Headquarters in Paris</place> will be different in
+            some ways I fancy. </para>
+        <para n="2"> I <act type="w">can't get over how lucky I am</act> to have this chance for I
+                <act type="w">realize how few girls of my age are getting across</act>, and I <act
+                type="w">understood the grit and pluck</act> which made you <act>encourage me on my
+                great adventure and send me along a path</act> which has proved so dangerous of
+            late. </para>
+        <para n="3"> As we <act type="w">drifted</act> down the <place>river</place>, in the sunset
+            glow with two absurd tugs <act>puffing alongside</act>, I know that many eyes were moist
+            and that the same thought was in all our minds. How many of this <org>ship's
+                company</org> will <act type="w">see that sky-line again</act>! It was very quiet,
+            no one <act type="w">spoke much</act>, and, little by little, <act>the glow faded from
+                the sky and one star after another appeared</act>. I knew that you would be
+                <act>looking at those same stars</act> down in <place>Lakewood</place> and that your
+                <act>thoughts and prayers</act> were the same that <act>filled my heart</act> at
+            that moment. Somehow distance does not <act type="w">separate</act>, after all. </para>
+        <para n="4"> We <act type="w">waited</act> near the <place>Statue of Liberty</place> until
+                <time type="past">midnight</time>—a <event>rumor</event> had it that a
+                <indv>"personage"</indv> was to <act>come on board</act>. This individual was
+            shrouded in mystery until we <act type="w">put to sea</act> when <act>it was given
+                out</act> that the party which had <act>clambered aboard</act> in the <time
+                type="past">night</time> was none other than the <org>Italian Mission</org>. Our
+            spirits rose at once for, what with <indv>Frank Sayre</indv> on the boat and these
+            distinguished <org>Italian gentlemen</org>, we shall doubtless be <act type="w">honored
+                by a bigger convoy and so doubly safe</act>. However, thus far we have but two
+            destroyers <act>following us</act>. They can <act type="w">be seen</act> distinctly
+            outlined against <place>the horizon</place>, one on each side, and seem to be the same
+            somber gray which all ships are <act>affecting</act> in this <event>war</event>. A
+                <indv>sailor</indv>
+            <act>informed me this morning</act> that we weren't in much danger for <time>the first
+                four or five days</time> but that <time type="future">after that</time> I might see
+                <event type="w">some excitement</event>. Here's <act type="w">hoping</act>! </para>
+        <para n="5"> I have a small inside <place type="w">cabin</place> and my <indv type="w"
+                >room-mate</indv> is quite a character. She is a native of <place>Haiti</place>,
+            voluble and very portly—has four large pieces of baggage in our tiny <place type="w"
+                >stateroom</place>, <act>wears a costume which resembles a Mother Hubbard</act> and
+                <act>smokes countless thin cigarettes that smell like incense</act>! When I <act
+                type="w">appeared</act>, there didn't seem to be much room for me but, as she
+                <act>says</act>, luckily I am small, and I was soon <act type="w">tucked</act> into
+            the <place type="w">upper berth</place> with my belongings! She really isn't bad and
+            after <act>looking me over carefully told me that she didn't think we would fight</act>
+            and from that time has <act>beamed upon me!</act> She is <act>going over to join</act>
+            <indv>her son</indv> who has been <act>fighting</act> with the <org>French</org> since
+                <time type="past">the beginning of the war</time> but will never <act>go back</act>
+            to <place>the Front</place> now, having <act>lost some fingers off each hand</act>. She
+            is so thankful, she says, that he hasn't <act>lost more than his fingers</act>. </para>
+    </letter>
+
+    <letter n="2">
+        <head>
+            <place type="source">Aix,</place>
+            <date when="1918-05-10">May 10th, 1918.</date>
+        </head>
+        <para n="1"> I've been very busy to-day <act type="w">learning a new dance</act>. The weekly
+                <org>vaudeville troop</org>
+            <act>arrived</act> from <place>Paris</place> minus one number and as <indv>Mr.
+                Carrell</indv> and I have <act type="w">danced</act> on several <event type="w"
+                >Stunt Night programs,</event> they asked us to <act type="w">fill in</act> for the
+                <org>missing number.</org> So we are on for <time type="future">a week</time> and we
+            were so thankful that we had something that could be put right on to <act type="w">fill
+                in.</act> This <event type="w">little taste of stage life</event> under such
+            delightful auspices, is great fun. I have a <place type="w">dressing room all my own,
+                No. 5,</place> and <indv>Alice</indv> has been an angel, <act>acts as maid</act> and
+            helps me <act type="w">change my costume</act> between <event type="w">our two
+                numbers.</event> We are <act>billed</act> with the <org>professionals</org> all over
+                <place>town,</place> "<indv>Miss Baldwin</indv> &amp; <indv>Mr. Carrell."</indv> It
+            looked too absurd. </para>
+        <para n="2"> I <act type="w">come on</act> right after the <org>"trained cats"</org> and,
+            while <act type="w">waiting</act> in the <place>wings</place>, <act type="w">dodge</act>
+            the <indv>"snake charmer's"</indv> serpents! She has two about twelve yards long apiece
+            and they <act>wriggle and glide</act> around <place>behind the stage</place> and
+                <act>appear suddenly</act> in the most unexpected manner! <indv>The snake
+                charmer</indv>
+            <act>keeps them between times rolled up neatly in a lunch basket</act> with a cloth
+            drawn tightly over the top! <indv>One of the acrobats</indv> told me she <act>doped
+                them</act>. Sometimes I <act type="w">get so interested</act> behind the scenes that
+            I almost forget to <act type="w">go on</act> when <event type="w">my turn</event> comes.
+            These <org>vaudeville artists</org> are the most kind-hearted of mortals and <act>have
+                been so good to me and encouraged me in the nicest way</act> the <time type="past"
+                >first night</time>, <act>telling me to "keep smiling and not be scared."</act>
+            <indv>One comedian</indv>
+            <act>has been especially good to me</act>. -He <act>white-washes his face and wears a
+                green nose and a suit</act> with huge black and white checks! </para>
+    </letter>
+
+    <letter n="3">
+        <head>
+            <place type="source">Baccarat,</place>
+            <date when="1918-07-15">July 15th, 1918.</date>
+        </head>
+        <para n="1"> I am now <act type="w">working</act> in the <place type="w">big new canteen at
+                Headquarters</place>, and <act>believe me</act>, it is one busy place. I'm <act
+                type="w">on duty</act> only <time type="w">eight hours a day</time> but during that
+            time I <act type="w">work like mad and scarcely have time to breathe</act>. There is a
+                <org>line</org> that <act>files in</act> and past <place>our counter</place> and
+            then out through <place>a farther door</place>. That <org>line</org> never stops from
+            the <time>time we are open in the morning until it gets dark at night</time>. I am kept
+                <act type="w">hopping like a grass-hopper</act> and <place type="w">bed</place>
+            looks pretty good to me at <time>the end of the day</time>. It's a fine life though,
+            just <act type="w">work</act> and food and <act type="w">sleep</act> and I am <act
+                type="w">thriving and growing fat</act> on it! </para>
+        <para n="2"> We are <time type="w">at present</time>
+            <act type="w">attached</act> to the <org>77th Division</org> which is, as you know,
+                <org>the New York drafted bunch</org>. It is, I <act type="w">believe</act>, a
+                <org>unique division and to me a most interesting one</org>. It looks as though they
+            had taken a cross section of <place>New York City</place> and divided it into
+                <org>Battalions, Regiments, Companies and all the different units and branches of
+                the service which go to make up a division</org>. <org>The officers</org> are almost
+            entirely from the <org>"four hundred"</org> so called, and <org>the enlisted men from
+                the lower East Side, Italians, Polish Jews, Greeks, Serbs, in fact, representatives
+                from most every country in the world</org>. Many of them can't even <act>speak
+                English intelligibly</act> and I have been thankful for my scraps of Italian, French
+            and even German to make them <act>understand me</act>. They are a ferocious looking lot
+            for the most part and always sure that I am <act type="w">trying to skin them</act>.
+            It's rather pathetic and I try to <act type="w">be patient and make them
+                understand</act> that <org type="w">the Y</org> may have <act type="w">made mistakes
+                unintentionally</act> but that we are not in <place>France</place> to <act type="w"
+                >profiteer</act>. It's a bit discouraging at <time type="w">the end of a long hot
+                day</time> to have <indv>some boy</indv>
+            <act>throw the change you have given him</act> down on the counter and <act>announce in
+                a loud voice</act> that the "Y girl" is <act type="w">trying to cheat him</act>.
+            They haven't <act>learned the value of French money</act>, not having <act>been over
+                here long</act> and are tremendously suspicious of what they <act>call</act> "that
+            tin Chinese money" (<org>the French</org> have <act>punctured their smaller coins in the
+                center in order to save metal</act>) and are always sure that you are <act type="w"
+                >trying to put something over on them</act>. However, there are many who <act>make
+                up for the disagreeable ones</act>. <org>Two or three Irish lads with merry blue
+                eyes and the most alluring of brogues</org> are generally <act>hanging over the end
+                of the counter and are very much my friends</act>. They are always <act>right on the
+                spot when there is a case of tobacco to be opened or heavy things to lift and have
+                even helped me squeeze lemons!</act> The <act type="w">work</act> is a never ceasing
+            joy to me on account of these bright spots and many others that <act>turn up constantly
+                to make me happier than I have ever been in my life</act>. No one who hasn't <act
+                type="w">tried it</act>, knows what a satisfaction a <act type="w">long day's
+                work</act> can bring. Thank <indv>God</indv> for the <event type="w"
+                >opportunity</event>.</para>
+    </letter>
+</root>

@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Include the stamp (with metadata?)-->
+
+<!--sub = subject of writing-->
+<!--des = description-->
+<!--ref = direct quote/reference from Booker T.-->
+<!--wis = wisdom/advice-->
+<!--rep = repeated lines from earlier in the poem-->
+<root>
+    <head>
+        <title>"Ballad of Booker T.,"</title>
+        <author> by Langston Hughes, </author>
+        <date when="1941-06-01">June 1, 1941</date>
+    </head>
+    <head>
+        <title type="main">BALLAD OF BOOKER T.</title>
+        <author>by Langston Hughes</author>
+    </head>
+
+    <body>
+        <l>
+            <sub>Booker T.</sub>
+        </l>
+        <l>
+            <des>Was a practical man.</des>
+        </l>
+        <l>
+            <act type="spoken">He said, Till the soil</act>
+        </l>
+        <l>
+            <act type="spoken">And learn from the land.</act>
+        </l>
+        <l>
+            <ref>Let down your bucket</ref>
+        </l>
+        <l>
+            <ref>Where you are.</ref>
+        </l>
+        <l>Your fate is here</l>
+        <l>And not afar.</l>
+        <l>
+            <act type="spoken">To help yourself</act>
+        </l>
+        <l>
+            <act type="spoken">And your fellow man,</act>
+        </l>
+        <l>
+            <act type="spoken">Train your head,</act>
+        </l>
+        <l>
+            <act type="spoken">Your heart, and your hand.</act>
+        </l>
+        <l>
+            <wis>For smartness alone's</wis>
+        </l>
+        <l>
+            <wis>Surely not meet—</wis>
+        </l>
+        <l>
+            <wis>If you haven't at the same time</wis>
+        </l>
+        <l>
+            <wis>Got something to eat.</wis>
+        </l>
+        <l>
+            <location type="historical">Thus at Tuskegee</location>
+        </l>
+        <l>
+            <act type="done">He built a school</act>
+        </l>
+        <l>With book-learning there</l>
+        <l>And the workman's tool.</l>
+        <l>
+            <act type="done">He started out</act>
+        </l>
+        <l>In a simple way—</l>
+        <l>For yesterday</l>
+        <l>Was not today.</l>
+        <l>Sometimes he had</l>
+        <l>
+            <act type="done">Compromise in his talk—</act>
+        </l>
+        <l>
+            <wis>For a man must crawl</wis>
+        </l>
+        <l>
+            <wis>Before he can walk—</wis>
+        </l>
+        <l>And in Alabama in '85</l>
+        <l>A joker was lucky</l>
+        <l>To be alive.</l>
+        <l>
+            <sub>But Booker T.</sub>
+        </l>
+        <l>
+            <des>Was nobody's fool:</des>
+        </l>
+        <l>
+            <wis>You may carve a dream</wis>
+        </l>
+        <l>
+            <wis>With an humble tool.</wis>
+        </l>
+        <l>
+            <wis>The tallest tower</wis>
+        </l>
+        <l>
+            <wis>Can tumble down</wis>
+        </l>
+        <l>
+            <wis>If it be not rooted</wis>
+        </l>
+        <l>
+            <wis>In solid ground.</wis>
+        </l>
+        <l>
+            <des>So, being a far-seeing</des>
+        </l>
+        <rep>
+            <l>
+                <des>Practical man,</des>
+            </l>
+            <l>
+                <act type="spoken">He said, Train your head,</act>
+            </l>
+            <l>
+                <act type="spoken">Your heart, and your hand.</act>
+            </l>
+            <l>Your fate is here</l>
+            <l>And not afar,</l>
+            <l>
+                <ref>So let down your bucket</ref>
+            </l>
+            <l>
+                <ref>Where you are.</ref>
+            </l>
+        </rep>
+    </body>
+
+    <foot>
+        <author>LANGSTON HUGHES</author>
+        <metadata type="version">Final Draft,</metadata>
+        <location type="source">Hollow Hills Farm, Monterey, California,</location>
+        <date>June 1, 1941.</date>
+    </foot>
+
+    <metadata type="cite">
+        <title type="cite">Citation: Drafts of Langston Hughes's poem "Ballad of Booker T.,"</title>
+        <date when="1941-05-30 through 1941-06-01"> 30 May–1 June 1941.</date>
+        <location type="cite">(Langston Hughes Collection) Manuscript Division, Library of Congress,
+            Washington, D.C. </location>
+    </metadata>
+
+    <EXmetadata type="stamp">The final draft of this poem is a part of the Library of Congress, as
+        designated by an offical stamp.</EXmetadata>
+    <EXmetadata type="authentication">In addition, it is also signed and authenticated by it's
+        orginal author, Langston Hughes.</EXmetadata>
+    <EXmetadata type="number">Finally, there is a string of letters and numbers within brackets in
+        the bottom left cormer of the document. It appears to read [te7059]. It looks as if there
+        may have been more text directly above this, but it is illegible. It is unclear what the
+        purpose of this text is, but it was likely added by the Library of Congress.</EXmetadata>
+</root>
