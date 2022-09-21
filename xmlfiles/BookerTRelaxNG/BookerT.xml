@@ -6,6 +6,7 @@
 <!--ref = direct quote/reference from Booker T.-->
 <!--wis = wisdom/advice-->
 <!--rep = repeated lines from earlier in the poem-->
+<?xml-model href="BookerT.rnc" type="application/relax-ng-compact-syntax"?>
 <root>
     <head>
         <title>"Ballad of Booker T.,"</title>
@@ -141,7 +142,7 @@
         <author>LANGSTON HUGHES</author>
         <metadata type="version">Final Draft,</metadata>
         <location type="source">Hollow Hills Farm, Monterey, California,</location>
-        <date>June 1, 1941.</date>
+        <date when="1941-06-01">June 1, 1941.</date>
     </foot>
 
     <metadata type="cite">

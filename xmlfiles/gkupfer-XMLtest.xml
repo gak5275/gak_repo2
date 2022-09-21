@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root><!-- gak: A <root> element was needed encompassing all of the code. -->
+<docInfo>
+        <title>XML is 20</title>
+        <subtitle>Tim Bray on XML's 20th birthday</subtitle><!-- gak: The end tag of <subtitle> required a slash at the end. -->
+        <author id="Bray_Tim">Tim Bray</author>
+        <publication type="digital" target="https://www.xml.com/articles/2018/02/10/xml-20/">XML.com</publication>
+        <pubDate when="2018-02-10">
+            <copyright>Article contents © 2018 Tim Bray</copyright><!-- gak: The "right" in this end tag was capitalized, while in the start tag 
+                it was not. -->
+        </pubDate><!-- gak: The element <pubDate> was missing an end tag. -->
+    </docInfo>
+    <body>
+        <p><quote source="Beatles">“It was twenty years ago today/Sergeant Pepper taught the band to<!-- gak: The elements <p> and <quote> were 
+            intersecting. -->
+            play..."</quote>. Actually, it was <duration quantity="21.5" unit="year>21½ years ago"><!-- gak: The start tag for <duration> required 
+                quotation marks around the attributes and was missing a > at the end. -->
+                today</duration> that <persName>Jon Bosak</persName> pulled together the original
+            <orgName>XML Working Group</orgName>. But yes, it was <event>on <date
+                when="1998-02-10">February 10, 1998</date> that <codeSpec>XML 1.0</codeSpec> was <!-- gak: The attribute for <date> was missing an 
+                    equal sign. --> -->
+                released to the world</event>. Which is worth talking about.</p><!-- gak: The end tag for <p> was missing. -->
+        <p>It turns out that if you follow the pointers back, the original <codeSpec>XML 1.0
+            Specification</codeSpec> is still out there &amp; <rs type="person" ref="Bray_Tim">my 
+                <!-- gak: The slash in the end tag for <codeSpec> was in the wrong place. -->
+                <!-- gak: "amp;" was needed after the & symbol. -->
+                fingers</rs> were the last to touch that document. The history of how XML came to be<!-- gak: The end tag of <rs> required a slash 
+                    at the end. -->
+            has been told at great length elsewhere, as have the details about <date
+                when="1998-02-10">that February 10th</date>, so there’s no need to revisit.</p>
+        <p>
+            <event when="2018-02-10">Happy birthday!</event><!-- gak: The elements <p> and <event> were intersecting. -->
+        </p>
+        
+    </body>
+</root>
