@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="TheFish.rnc" type="application/relax-ng-compact-syntax"?>
+<root>
+
+    <head>
+        <title>The Fish</title>
+        <author>Elizabeth Bishop</author>
+        <lifespan> - 1911-1979</lifespan>
+    </head>
+
+    <body>
+        <l>
+            <verb typeV="human">I caught</verb>
+            <desc typeA="adj"> a tremendous fish</desc>
+        </l>
+        <l>
+            <verb typeV="human">and held him beside the boat</verb>
+        </l>
+        <l>
+            <desc typeA="phys">half out of water, with my hook</desc>
+        </l>
+        <l>
+            <desc typeA="phys">fast in a corner of his mouth.</desc>
+        </l>
+        <l>
+            <verb typeV="fish">He didn't fight.</verb>
+        </l>
+        <l>
+            <verb typeV="fish">He hadn't fought at all.</verb>
+        </l>
+        <l>
+            <verb typeV="fish">He hung a grunting weight,</verb>
+        </l>
+        <l>
+            <desc typeA="adj">battered and venerable</desc>
+        </l>
+        <l>
+            <desc typeA="adj">and homely. </desc>
+            <desc typeA="phys">Here and there</desc>
+        </l>
+        <l>
+            <desc typeA="adj">his brown skin</desc>
+            <verb typeV="fish"> hung in strips</verb>
+        </l>
+        <l>
+            <desc typeA="simile">like ancient wallpaper,</desc>
+        </l>
+        <l>
+            <desc typeA="adj">and its pattern of darker brown</desc>
+        </l>
+        <l>
+            <desc typeA="simile">was like wallpaper:</desc>
+        </l>
+        <l>
+            <desc typeA="simile">shapes like full-blown roses</desc>
+        </l>
+        <l>
+            <desc typeA="adj">stained and lost through age.</desc>
+        </l>
+        <l>
+            <desc typeA="adj">He was speckled with barnacles,</desc>
+        </l>
+        <l>
+            <desc typeA="metaphor">fine rosettes of lime,</desc>
+        </l>
+        <l>
+            <desc typeA="adj">and infested</desc>
+        </l>
+        <l>
+            <desc typeA="phys">with tiny white sea-lice,</desc>
+        </l>
+        <l>
+            <desc typeA="phys">and underneath two or three</desc>
+        </l>
+        <l>
+            <desc typeA="phys">rags of green weed hung down.</desc>
+        </l>
+        <l>
+            <verb typeV="fish">While his gills were breathing in</verb>
+        </l>
+        <l>
+            <desc typeA="adj">the terrible oxygen</desc>
+        </l>
+        <l>
+            <desc typeA="adj">—the frightening gills,</desc>
+        </l>
+        <l>
+            <desc typeA="phys">fresh and crisp with blood,</desc>
+        </l>
+        <l>
+            <desc typeA="phys">that can cut so badly—</desc>
+        </l>
+        <l>
+            <verb typeV="human">I thought of </verb>
+            <desc typeA="adj">the coarse white flesh</desc>
+        </l>
+        <l>
+            <desc typeA="simile">packed in like feathers,</desc>
+        </l>
+        <l>
+            <desc typeA="adj">the big bones and the little bones,</desc>
+        </l>
+        <l>
+            <desc typeA="adj">the dramatic reds and blacks</desc>
+        </l>
+        <l>
+            <desc typeA="adj">of his shiny entrails,</desc>
+        </l>
+        <l>
+            <desc typeA="adj">and the pink swim-bladder</desc>
+        </l>
+        <l>
+            <desc typeA="simile">like a big peony.</desc>
+        </l>
+        <l>
+            <verb typeV="human">I looked into his eyes</verb>
+        </l>
+        <l>
+            <desc typeA="adj">which were far larger than mine</desc>
+        </l>
+        <l>
+            <desc typeA="adj">but shallower, and yellowed,</desc>
+        </l>
+        <l>
+            <desc typeA="adj">the irises backed and packed</desc>
+        </l>
+        <l>
+            <desc typeA="adj">with tarnished tinfoil</desc>
+        </l>
+        <l>
+            <desc typeA="adj">seen through the lenses</desc>
+        </l>
+        <l>
+            <desc typeA="adj">of old scratched isinglass.</desc>
+        </l>
+        <l>
+            <verb typeV="fish">They shifted a little, but not</verb>
+        </l>
+        <l>
+            <verb typeV="fish">to return my stare.</verb>
+        </l>
+        <l>
+            <desc typeA="simile">—It was more like the tipping</desc>
+        </l>
+        <l>
+            <desc typeA="simile">of an object toward the light.</desc>
+        </l>
+        <l>
+            <verb typeV="human">I admired </verb>
+            <desc typeA="adj">his sullen face,</desc>
+        </l>
+        <l>
+            <desc typeA="phys">the mechanism of his jaw,</desc>
+        </l>
+        <l>
+            <verb typeV="human">and then I saw</verb>
+        </l>
+        <l>
+            <desc typeA="phys">that from his lower lip</desc>
+        </l>
+        <l>
+            <verb typeV="human">—if you could call it a lip—</verb>
+        </l>
+        <l>
+            <desc typeA="adj">grim, wet, and weaponlike,</desc>
+        </l>
+        <l>
+            <verb typeV="fish">hung five old pieces of fish-line,</verb>
+        </l>
+        <l>
+            <desc typeA="phys">or four and a wire leader</desc>
+        </l>
+        <l>
+            <desc typeA="phys">with the swivel still attached,</desc>
+        </l>
+        <l>
+            <desc typeA="phys">with all their five big hooks</desc>
+        </l>
+        <l>
+            <desc typeA="phys">grown firmly in his mouth.</desc>
+        </l>
+        <l>
+            <desc typeA="adj">A green line, frayed at the end</desc>
+        </l>
+        <l>
+            <verb typeV="fish">where he broke it, </verb>
+            <desc typeA="adj">two heavier lines,</desc>
+        </l>
+        <l>
+            <desc typeA="adj">and a fine black thread</desc>
+        </l>
+        <l>
+            <desc typeA="adj">still crimped from the strain and snap</desc>
+        </l>
+        <l>
+            <verb typeV="fish">when it broke and he got away.</verb>
+        </l>
+        <l>
+            <desc typeA="simile">Like medals with their ribbons</desc>
+        </l>
+        <l>
+            <desc typeA="adj">frayed and wavering,</desc>
+        </l>
+        <l>
+            <desc typeA="metaphor">a five-haired beard of wisdom</desc>
+        </l>
+        <l>
+            <desc typeA="adj">trailing from his aching jaw.</desc>
+        </l>
+        <l>
+            <verb typeV="human">I stared and stared</verb>
+        </l>
+        <l>
+            <desc typeA="phys">and victory filled up</desc>
+        </l>
+        <l>
+            <desc typeA="adj">the little rented boat,</desc>
+        </l>
+        <l>
+            <desc typeA="phys">from the pool of bilge</desc>
+        </l>
+        <l>
+            <desc typeA="phys">where oil had spread a rainbow</desc>
+        </l>
+        <l>
+            <desc typeA="adj">around the rusted engine</desc>
+        </l>
+        <l>
+            <desc typeA="adj">to the bailer rusted orange,</desc>
+        </l>
+        <l>
+            <desc typeA="adj">the sun-cracked thwarts,</desc>
+        </l>
+        <l>
+            <desc typeA="phys">the oarlocks on their strings,</desc>
+        </l>
+        <l>
+            <desc typeA="phys">the gunnels—until everything</desc>
+        </l>
+        <l>
+            <desc typeA="metaphor">was rainbow, rainbow, rainbow!</desc>
+        </l>
+        <l>
+            <verb typeV="human">And I let the fish go.</verb>
+        </l>
+    </body>
+
+    <metadata><copyright>Copyright © <date when="2011">2011 </date></copyright><author>by Elizabeth Bishop.
+        </author>Reprinted from Poems with the permission of Farrar, Straus and Giroux.</metadata>
+
+</root>

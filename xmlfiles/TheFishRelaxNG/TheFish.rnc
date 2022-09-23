@@ -1,0 +1,16 @@
+start = root
+root = element root {head, body, metadata}
+head = element head {title, author, lifespan}
+title = element title {text}
+author = element author {text}
+lifespan = element lifespan {text}
+body = element body {l+}
+l = element l {verb?, desc*}
+verb = element verb {typeV, text}
+typeV = attribute typeV {"human" | "fish"}
+desc = element desc {typeA, text}
+typeA = attribute typeA {"adj" | "phys" | "simile" | "metaphor"}
+metadata = element metadata {copyright, author, text}
+copyright = element copyright {text, date}
+date = element date {when, text}
+when = attribute when {xsd:gYear}
