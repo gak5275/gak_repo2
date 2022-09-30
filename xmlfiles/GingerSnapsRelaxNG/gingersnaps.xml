@@ -22,46 +22,46 @@ Ingredients</head>
 <CookieIngr>
 <head>Cookies</head>
 <!-- gak: 1/2 teaspoon is 2.84 grams, or 2,840 milligrams. -->
-<i><me ng="138">3/4 cup (138g)</me> vegetable shortening*</i>
-<i><me ng="198">1 cup (198g)</me> granulated sugar</i>
-<i><me nmg="2840">1/2 teaspoon</me> salt</i>
-<i><me n="2">2 teaspoons</me> baking soda</i>
-<i><me n="1">1</me> large egg</i>
-<i><me ng="113">1/3 cup (113g)</me> molasses</i>
-<i><me ng="280">2 1/3 cups (280g)</me> King Arthur Unbleached All-Purpose Flour</i>
-<i><me from="1" to="2">1 to 2 teaspoons</me> ginger</i>
-<i><me nmg="2840">1/2 teaspoon</me> cloves</i>
-<i><me n="1">1 teaspoon</me> cinnamon</i>
+<i xmlid="vshort"><me ng="138">3/4 cup (138g)</me> vegetable shortening*</i>
+<i xmlid="gsugar"><me ng="198">1 cup (198g)</me> granulated sugar</i>
+<i xmlid="salt"><me nmg="2840">1/2 teaspoon</me> salt</i>
+<i xmlid="bsoda"><me n="2">2 teaspoons</me> baking soda</i>
+<i xmlid="egg"><me n="1">1</me> large egg</i>
+<i xmlid="mol"><me ng="113">1/3 cup (113g)</me> molasses</i>
+<i xmlid="apflour"><me ng="280">2 1/3 cups (280g)</me> King Arthur Unbleached All-Purpose Flour</i>
+<i xmlid="ginger"><me from="1" to="2">1 to 2 teaspoons</me> ginger</i>
+<i xmlid="cloves"><me nmg="2840">1/2 teaspoon</me> cloves</i>
+<i xmlid="cinn"><me n="1">1 teaspoon</me> cinnamon</i>
 
 <note>*Can you substitute butter for the vegetable shortening? Yes; but the cookies will be soft, not crisp.</note>
 </CookieIngr>
 <CoatIngr>
 <head>Coating</head>
 
-<i><me ng="50">1/4 cup (50g)</me> granulated sugar</i>
-<i><me n="1">1 teaspoon</me> cinnamon</i>
+<i xmlref="gsugar"><me ng="50">1/4 cup (50g)</me> granulated sugar</i>
+<i xmlref="cinn"><me n="1">1 teaspoon</me> cinnamon</i>
 </CoatIngr>
 </FullIngr>
 <instr>
 <head>Instructions</head>
 
 <s><act>Preheat the oven to </act><me n="375">375°F.</me><act> Lightly grease (or line with parchment) </act><tool>two baking sheets.</tool></s>
-
-<s><act>Beat together the </act><i>shortening, sugar, salt, and baking soda.</i></s>
-
-<s><act>Beat in the </act><i>egg, then the molasses.</i></s>
-
-<s><act>Add the </act><i>flour and spices, </i><act>beating to make a smooth, fairly stiff dough.</act></s>
-
-<s><act>To make the coating, combine the </act><i>sugar and cinnamon, </i><act>and place in a </act><tool>shallow pan or dish.</tool></s>
-
-<s><act>Drop the dough in 1" balls into the </act><i>cinnamon-sugar mixture; </i><tool>a teaspoon cookie scoop is perfect here.</tool></s>
-
-<s><act>Roll the balls in the </act><i>sugar</i><act> to coat, then transfer them to the </act><tool>prepared baking sheets, </tool><act>leaving at least 1 1/2" between them; </act><result>they'll spread as they bake.</result></s>
-
+<!-- act, me, act, tool -->
+<s><act>Beat together the </act><i xmlrefs="vshort gsugar salt bsoda">shortening, sugar, salt, and baking soda.</i></s>
+<!-- act, i -->
+<s><act>Beat in the </act><i xmlrefs="egg mol">egg, then the molasses.</i></s>
+<!-- act, i -->
+<s><act>Add the </act><i xmlrefs="apflour ginger cloves cinn">flour and spices, </i><act>beating to make a smooth, fairly stiff dough.</act></s>
+<!-- act, i, act -->
+<s><act>To make the coating, combine the </act><i xmlrefs="gsugar cinn">sugar and cinnamon, </i><act>and place in a </act><tool>shallow pan or dish.</tool></s>
+<!-- act, i, act, tool -->
+<s><act>Drop the dough in 1" balls into the </act><i xmlrefs="cinn gsugar">cinnamon-sugar mixture; </i><tool>a teaspoon cookie scoop is perfect here.</tool></s>
+<!-- act, i, tool -->
+<s><act>Roll the balls in the </act><i xmlref="gsugar">sugar</i><act> to coat, then transfer them to the </act><tool>prepared baking sheets, </tool><act>leaving at least 1 1/2" between them; </act><result>they'll spread as they bake.</result></s>
+<!-- act, i, act, tool, act, result -->
 <s><act>Bake the cookies for </act><me n="11">11 minutes, </me><result>for cookies that are crisp around the edges, and "bendy" in the center. </result><act>Bake for </act><me n="13">13 minutes, </me><result>for cookies that are crisp/crunchy all the way through.</result></s>
-
+<!-- act, me, result, act, me, result -->
 <s><act>Remove the cookies from the </act><tool>oven, </tool><act>and cool right on the </act><tool>pan, or on a rack. </tool><act>Cool completely, then store tightly wrapped, at room temperature.</act></s>
+<!-- act, tool, act, tool, act -->
 </instr>
 </xml>
-
