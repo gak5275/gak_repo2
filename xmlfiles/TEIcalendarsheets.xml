@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+     <fileDesc>
+         <titleStmt>
+            <title>Calandar Sheets by Mary Behrend</title>
+            <author>Mary Behrend</author>
+         </titleStmt>
+         <publicationStmt>
+            <p>N/A</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository>The Lilley Library at Penn State Behrend</repository></msIdentifier>
+               <msContents>
+                  <p xml:id="source">The calandar sheets were found inside of a baby book among Mary Behrend's belongings.</p>
+                  <p xml:id="copyright">Copyright 1908 by Friendship Calendar Co. New Britain, Conn.</p>
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <handNote></handNote>
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+            <person><note>Primary Speaker: </note><name>Mary Behrend</name></person>
+            <person><note>Quoted and Named/Referenced: </note><name>Ernst Behrend</name><note> (referred to on the 1-30 sheet as "E.R.B." and on the 2-16 sheet as "Mr. Behrend")</note></person>
+            <person><note>Referenced: </note><name>Weir</name><note> (referred to as "Mr. Weir")</note></person>
+            <person><note>Referenced: </note><name>Molly</name><note> (Molly is Mary Behrend; she appears to be referring to herself in the third person)</note></person>
+            <person><note>Referenced: </note><name>Saint Patrick</name><note> (historical figure)</note></person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         
+         <div n="1">
+            <dateline><date when="1909-01-30">JANUARY 30, 1909. SATURDAY</date></dateline>
+            <figure><graphic url="https://newtfire.org/courses/tutorials/TEI-images/mary-behrend-calendar-1909/IMG_2041.jpg"></graphic></figure>
+            <p><unclear reason="illegible">E.R.B. <quote>"That damned ??? clock gives me a ???. ??? where it's dark. ???."</quote></unclear></p>
+         </div>
+         
+         <div n="2">
+         <p><date when="1909-02-16">FEBRUARY 16, 1909. TUESDAY</date></p>
+         <figure><graphic url="https://newtfire.org/courses/tutorials/TEI-images/mary-behrend-calendar-1909/IMG_2042.jpg"></graphic></figure>
+         <p>Mr. Behrend finds a bed bug!</p>
+         <p>I wonder if you have found many lately!</p> <!-- gak: this sentence was written in red ink. Is there a way to identify the color of
+            text? I could not find any color related attributes in the TEI appendix. -->
+         </div>
+         
+         <div n="3">
+         <p><date when="1909-02-17">FEBRUARY 17, 1909. WEDNESDAY</date></p>
+         <figure><graphic url="https://newtfire.org/courses/tutorials/TEI-images/mary-behrend-calendar-1909/IMG_2046.jpg"></graphic></figure>
+         <p><unclear>Back ??? very early while all is dark &amp; still. ??? at Hammermill. I really think he's very ??? where it's dark. 
+            ??? he says he doesn't ???</unclear></p>
+         <p><unclear>??? Is it still dark when you arise?</unclear></p>
+         </div>
+         
+         <div n="6">
+         <p><date when="1909-03-12">MARCH 12, 1909. FRIDAY</date></p>
+         <figure><graphic url="https://newtfire.org/courses/tutorials/TEI-images/mary-behrend-calendar-1909/IMG_2050.jpg"></graphic></figure>
+         <p>MOLLY ON SNOWSHOES THAT MR. WEiR GoT. PRETTY PicTURE IS iT NOT?!</p>
+         <p>Love from Molly.</p>
+         </div>
+         
+         <div n="7">
+         <p><date when="1909-03-17">MARCH 17, 1909. WEDNESDAY St. Patrick's Day</date></p>
+         <figure><graphic url="https://newtfire.org/courses/tutorials/TEI-images/mary-behrend-calendar-1909/IMG_2052.jpg"></graphic></figure>
+         <lg>
+            <l>St. PATRiCK WAS A USEFUF SAiNT</l>
+            <l>HE FRiGHTENED ALL THE SNAKES AWAY-</l>
+            <l>I WiSH HE'D TRY HiS ART ON <emph>SMOKE</emph></l>
+            <l>AROUND THE HAMMERMILL SOME DAY!</l>
+         </lg>
+         <p><unclear>The Hammermill ???</unclear></p>
+         </div>
+         
+      </body>
+  </text>
+</TEI>

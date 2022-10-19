@@ -1,0 +1,73 @@
+# DIGIT 110 RELAX NG TEST INSTRUCTIONS:  
+# * Save these test files according to our standard file naming conventions for Canvas submissions.
+# * Make the schema well-formed and document with  # comments where you made change(s). 
+# * Then, associate the schema with the XML file we have provided for the exam.
+# * Next, correct the schema code so that it validates the XML (happy green oXygen for both documents) and document briefly with # comments what you changed and why.
+#  **NOTE**: DO NOT CHANGE the markup in the XML file, except to add your schema line!
+#
+# TIPS: 
+# There are 13 critical errors in this Relax-NG schema that will make oXygen's error-checking box RED. Only a few of them will appear at first in the Relax NG. 
+# More will be revealed when you associate the schema with the XML file.
+# Your goal is to correct each of these errors.
+
+# First, correct the schema file so it "turns green" in oXygen and write a comment to document each correction.
+# Then, associate your corrected  schema with the XML (and remove the original schema line). 
+# At that point the other validation errors will become evident in the XML file.)
+# Remember to split your oXygen screen (Window -> Tile Editors Vertically), and carefully examine the XML to see how 
+# the elements are written. 
+# DO NOT CHANGE THE MARKUP IN THE XML FILE. Make ALL corrections in the Relax NG Schema to make the XML valid according to the schema.
+# Save the schema and use the red checkmark in oXygen to check the validation as you go.
+#
+# **NOTE**: Because this is an exam, you are expected to complete this assignment _individually_ 
+# without discussion or help from other students. Any such collaboration will be considered to be plagiarism under the penalties stated on the syllabus.
+# *  GITHUB: While you may ask basic questions on the class Slack, GitHub or by email, the instructor's responses will
+# be correspondingly minimal: that is, I will not be telling you the complete answers. Similarly, for any
+# questions about take-home exams on GitHub, students _must not_ reply to each other.
+#
+# SUBMITTING YOUR EXAM:
+# When you are finished, upload BOTH the schema and the XML file to Canvas using the posted upload point for this exam. 
+# You may zip the files to submit them just as you have done for homework assignments.
+
+start = xml
+xml = element xml {metadata, recipe}
+metadata = element metadata {title, author, editor, source, time, yield}
+title = element title {text} # gak: 1. The word "text" was mispelled.
+author = element author {id, text}
+editor = element editor {id, text}
+source = element source {text, url} # gak: 4. The attribute "url" needed to be allowed in the <source> element.
+time = element time {dur, text}
+id = attribute id {xsd:ID} # gak: 3. The attribute "id" was mispelled.
+url = attribute url {xsd:anyURI}
+dur = attribute dur {xsd:duration}
+yield = element yield {text} # gak: 5. The <yield> element was not referenced in the schema or allowed in the <metadata> element.
+
+recipe = element recipe {ingList, prep}
+ingList = element ingList {heading, ing+}
+heading = element heading {text}
+ing = element ing {id, meas?, unit?, mixed{alt*}}
+alt = element alt {meas, unit, text}
+meas = attribute meas {xsd:float}
+unit = attribute unit {"cup" | "T" | "t"  | "F" | "C" | "inch" | "pint"} # gak: 6. The word "pint" was not an option for the "unit" attribute.
+prep = element prep {heading, step+} # gak: 12. A plus sign needed to be applied to the <step> element instead of a question mark.
+step = element step {n, mixed{combine | equip | equipUse | ingUse}*} # gak: 9. The repetition indicator * needed to be applied to all of the mixed content of the <step> element, not just the <ingUse> element.
+equip = element equip {id, mixed{(equip | equipUse | setting | time | temp | size)*}} # gak: 8. The <temp> element needed to be allowed in the <equip> element.
+# gak: 11. The <size> element needed to be allowed in the <equip> element.
+setting = element setting {text} # gak: 2. The <setting> element was not referenced in the schema.
+temp = element temp {meas, unit, text}
+size = element size {depth, unit, text}
+depth = attribute depth {xsd:float}
+equipUse = element equipUse {ref, mixed{(temp | size | equip | equipUse | ingUse | setting | time)*}}
+ingUse = element ingUse {ref, meas?, unit?, text} # gak: 10. The "meas" and "unit" attributes needed to be allowed to appear one or zero times in an <ingUse> element.
+ref = attribute ref {xsd:IDREFS}
+combine = element combine {ref, mixed{ingUse}} # gak: 13. "text" needed to be replaced by mixed content, with the <ingUse> element allowed inside.
+n = attribute n {xsd:integer} # gak: 7. The datatype for "n" should be xsd:integer instead of xsd:date.
+
+
+
+
+
+
+
+
+
+
