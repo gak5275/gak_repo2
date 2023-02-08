@@ -35,7 +35,7 @@ def download_links(href):
 
     workingDir = os.getcwd()
     print("current working directory: " + workingDir)
-    fileDeposit = os.path.join(workingDir, 'DHmedia', file_name)
+    fileDeposit = os.path.join(workingDir, 'ex3output', file_name)
     print(fileDeposit)
 
 
