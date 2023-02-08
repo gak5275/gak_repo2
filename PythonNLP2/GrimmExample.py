@@ -1,3 +1,4 @@
+# 2021-03-03 ebb: I'm adapting a script for downloading videos
 # from GeeksforGeeks.org: https://www.geeksforgeeks.org/downloading-files-web-using-python/
 # ebb: Before beginning, go out to your shell (Git Bash or Terminal) and enter:
 # pip install BeautifulSoup4
@@ -6,9 +7,9 @@ import requests
 import os
 
 # ebb: This variable stores the website address that you want to scrape.
-archive_url = "https://github.com/gak5275/gak_repo2/tree/main/PythonNLP2/DHmedia"
+archive_url = "https://www.cs.cmu.edu/~spok/grimmtmp/"
 
-def get_media():
+def get_tales():
     # create response object
     r = requests.get(archive_url)
 
@@ -20,7 +21,7 @@ def get_media():
         link = item.find('a')
         href = archive_url + link['href']
         download_links(href)
-    print("All media downloaded!")
+    print("All tales downloaded!")
     # ebb: After class I realized the print line indicating
     # all files downloaded needed to go after THIS loop finished.
     # Do you see why it makes sense and works here?
@@ -35,7 +36,7 @@ def download_links(href):
 
     workingDir = os.getcwd()
     print("current working directory: " + workingDir)
-    fileDeposit = os.path.join(workingDir, 'DHmedia', file_name)
+    fileDeposit = os.path.join(workingDir, 'grimmTales', file_name)
     print(fileDeposit)
 
 
@@ -54,4 +55,9 @@ def download_links(href):
 if __name__ == "__main__":
 
     # getting all links to files
-    get_media = get_media()
+    get_tales = get_tales()
+
+
+
+
+
