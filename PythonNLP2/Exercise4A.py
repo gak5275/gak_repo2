@@ -13,7 +13,7 @@
 # ####################################################
 import pandas as pd
 import nltk
-nltk.download('stopwords')
+# nltk.download('stopwords')
 from nltk.corpus import stopwords
 import string
 import gensim.corpora as corpora

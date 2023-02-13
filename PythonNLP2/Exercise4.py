@@ -13,7 +13,7 @@
 # ####################################################
 import pandas as pd
 import nltk
-nltk.download('stopwords')
+# nltk.download('stopwords')
 from nltk.corpus import stopwords
 import string
 import gensim.corpora as corpora
@@ -41,9 +41,11 @@ print(f"{string.punctuation=}")
 # so you can just append a new value to the list like this:
 # stop_words = stop_words.append('said')
 # You can extend it to add a list of new stopwords with:
-# newStopWords = ["said", "one", "go", "went", "came"]
-# stop_words.extend(newStopWords)
-# print("UPDATED: " + f"{stop_words=}")
+newStopWords = ["digital", "humanities", "technology", "college", "students", "professor", "class", "group", "premise",
+                "movie", "film", "follows", "way", "role", "challenge", "use", "virtual", "reality", "write", "world",
+                "code", "must", "using", "takes", "place", "find", "skills", "series", "explores", "coding", "tech"]
+stop_words.extend(newStopWords)
+print("UPDATED: " + f"{stop_words=}")
 # REMEMBER TO CHANGE YOUR EXTENDED STOP WORD LIST FOR NEW COLLECTIONS!
 # ##################################################################
 
