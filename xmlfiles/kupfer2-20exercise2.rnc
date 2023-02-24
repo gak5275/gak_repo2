@@ -1,0 +1,23 @@
+start = root
+root = element root {title, text, creator, inlist, dirlist}
+title = element title {text}
+creator = element creator {text}
+inlist = element inlist {head, in+}
+dirlist = element dirlist {head, s+, note}
+head = element head {text}
+in = element in {m?, text}
+s = element s {mixed{tool*, act*, tool*, m*, in*, act*, mix*, tool*, act*, t*, cookies?}}
+m = element m {n, alt?, text}
+tool = element tool {text}
+act = element act {mixed{t*, in*, tool*, mix*, m*, in*, mix*, cookies?, tool*, t*}}
+mix = element mix {ing?, mixes?, text}
+t = element t {n?, from?, to?, text}
+note = element note {mixed{act*, in*, mix*, act}}
+cookies = element cookies {text}
+
+n = attribute n {xsd:float}
+alt = attribute alt {xsd:integer}
+ing = attribute ing {text}
+mixes = attribute mixes {text}
+to = attribute to {xsd:duration | xsd:integer}
+from = attribute from {xsd:duration | xsd:integer}

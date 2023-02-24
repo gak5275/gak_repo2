@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Key -->
+<!-- fl = foreign language -->
+<!-- au = author -->
+<!-- loc = location -->
+<!-- in = ingredient -->
+<!-- t = time -->
+<!-- m = measurement -->
+<!-- s = step -->
+<!-- inlist = ingredients list -->
+<!-- dirlist = direction list -->
+<root>
+    <title><bread>Country Loaf <fl language="French">(Pain de Campagne)</fl></bread></title>
+    <au>Deb Lindsey</au> for <pub>The Washington Post</pub>
+    <date date="9-10-14">SEP 10, 2014</date>
+    <headnote>
+        <loc>Washington</loc> author <au>Sam Fromartz</au> has been <act>making</act>
+        <taste>sourdough</taste> variations of this <bread>yeast bread</bread> for <t>years</t>.
+        Here, he <act>adds</act>
+        <in>fermented cider</in> for flavor. A <in><taste>mild</taste> beer</in> may be
+            <act>substituted;</act> an <in abbreviation="Indian Pale Ale">IPA</in> would be too
+            <taste>bitter</taste>. The <bread>loaf</bread> is sized to <t>last a few days.</t> The
+                <in><m n="1" state="optional">optional tablespoon</m> of water</in> is to
+            <act>compensate</act> for the <act>variable absorption</act> of the <in>rye</in> and
+            <in>whole-wheat flours.</in> You'll need a <tool>colander</tool>, a <tool>pastry
+            cloth</tool> or <tool>clean dish towel</tool> and a <tool>covered cast-iron or enameled
+            cast-iron pot.</tool>
+        <act>Make Ahead:</act> The <bread>dough</bread> needs <m n="20*4">four 20-minute rests</m>,
+        plus an <m n="8-24">8-to-24-hour</m> stay in the <tool>refrigerator</tool> and a final <t
+            n="1.5">1 1/2-hour</t> rise. Storage Notes: <act>Store</act> the <bread>cooled
+            loaf</bread> in a <tool>paper bag</tool> for <t n="1">a day</t>, and <act>store</act> in
+        a <tool>plastic bag</tool> for a <t>few days</t> after that. Do not <act>refrigerate</act>. </headnote>
+    <head>SERVINGS:</head> Tested size: <m n="10-12">10-12 servings</m>; makes one <m n="11"
+        >11-ounce</m>
+    <bread>loaf</bread>
+    <m n="10-12">10 to 12 slices</m>
+    <inlist>
+        <head>INGREDIENTS</head>
+        <in><m n="1.25" alt="160">1 1/4 cups (160 grams)</m> white bread flour, plus more for
+            dusting</in>
+        <in><m n="0.25" alt="38">1/4 cup (38 grams)</m> stone-ground whole-wheat flour</in>
+        <in><m n="0.25" alt="32">1/4 cup (32 grams)</m> stone-ground whole rye flour</in>
+        <in><m n="0.5">1/2 teaspoon</m> instant yeast or bread machine yeast</in>
+        <in><m n="1">1 teaspoon</m> table salt</in>
+        <in><m n="0.25" alt="55">1/4 cup (55 grams)</m> dry fermented cider (may substitute Pilsener
+            beer; see headnote)</in>
+        <in><m n="0.5" alt="120">1/2 cup (120 grams)</m> lukewarm water <m n="80">(80 degrees)</m>,
+            plus an <in n="1" state="optional">optional 1 tablespoon</in></in>
+    </inlist>
+    <dirlist>
+        <head>DIRECTIONS</head>
+        <s><act>Whisk together</act> the <in>flours, yeast and salt</in> in a <tool>mixing
+                bowl.</tool></s>
+        <s><act>Combine</act> the <in>cider and water</in> in a <tool>liquid measuring
+            cup.</tool></s>
+        <s><act>Add</act> the <in>liquid</in> to the <in>flour mixture;</in></s>
+        <s>use a <tool>spatula or bench scraper</tool> or your <tool>hand moistened with
+                water</tool> to <act>blend them</act> for <t n="1">about a minute.</t> The
+                <bread>dough</bread> should be shaggy yet cohesive.</s>
+        <s><act>Cover</act> the <tool>bowl</tool> with a <tool>towel;</tool>
+            <act>let the <bread>dough</bread> rest</act> for <t n="20">20 minutes.</t></s>
+        <s><act>Moisten</act><tool> your kneading hand.</tool></s>
+        <s>If the <bread>dough</bread> seems stiff, <act>add</act> the <in n="1" state="optional"
+                >optional tablespoon of water.</in></s>
+        <s><act>Stretch</act> one edge of the <bread>dough</bread> (still in the <tool>bowl</tool>),
+            then <act>press it</act> into the center of the <tool>bowl</tool>. <act>Repeat</act>
+            this <m n="12">about a dozen times,</m><act> moving clockwise to catch all sides of the
+                    <bread>dough.</bread></act> (This should take <t n="1-2">1 or 2
+            minutes.)</t></s>
+        <s><act>Turn the <bread>dough</bread> over</act> so the seams are on the bottom.</s>
+        <s><act>Cover and let rest</act> for <m n="20">20 minutes.</m></s>
+        <s><act>Repeat the clockwise stretching and folding</act><m n="2"> two more times,</m> with
+                <t n="20*2">20-minute </t><act>rests</act> after each.</s>
+        <s><act>Cover and refrigerate</act><t n="8+"> at least 8 hours</t> and <t n="24">up to 24
+                hours.</t> The <bread>dough</bread> should have <act>doubled.</act></s>
+        <s>If it hasn't, <act>leave it on <tool>the counter</tool></act> until it does.</s>
+        <s><act>Lightly <in>flour</in></act> a <tool>work surface.</tool></s>
+        <s><act>Use a <tool>pastry cloth or clean dish towel</tool> to line a <tool>round
+                    colander.</tool></act></s>
+        <s><act>Dust</act> the <tool>cloth</tool> with <in>flour.</in></s>
+        <s><act>Transfer</act> the <bread>dough</bread> to the <tool>floured work
+            surface.</tool></s>
+        <s><act>Fold the edges toward the center to create a round shape, turning <in>it</in> over
+                so the seams are on the bottom.</act></s>
+        <s><act>Let it rest</act> for <m n="5">5 minutes,</m> then <act>transfer</act> to the
+                <tool>colander,</tool> seam side up.</s>
+        <s><act>Cover with a <tool>towel</tool></act> and <act>let the <bread>dough</bread>
+                rise</act> for <t n="1.5">1 1/2 hours.</t></s>
+        <s><t n="30">Thirty minutes</t> before <act>baking,</act><act> place a <tool>cast-iron Dutch
+                    oven (lid on) or enameled cast-iron pot with a lid (on)</tool> in the
+                oven;</act></s>
+        <s><act>preheat</act> to <m n="475">475 degrees.</m></s>
+        <s><act>Carefully remove</act> the <tool>hot pot</tool> from the <tool>oven.</tool></s>
+        <s><act>Turn the <bread>dough</bread> out onto the <tool>counter</tool></act> so the seams
+            are on the bottom.</s>
+        <s><act>Use <tool>kitchen scissors</tool> to make <m n="8">8 snips</m> on the top of the
+                    <bread>dough</bread> in an evenly spaced spoke pattern, each <m n="0.25">about
+                    1/4-inch deep.</m></act></s>
+        <s><act>Lift the <bread>dough</bread> and carefully drop it into the <tool>hot
+                pot.</tool></act></s>
+        <s><act>Immediately cover with the <tool>hot lid.</tool></act></s>
+        <s><act>Bake</act> for <t n="30">30 minutes,</t> then <act>reduce the heat</act> to <m
+                n="450">450 degrees.</m></s>
+        <s><act>Uncover and bake</act> for <t n="8-10">8 to 10 minutes</t> or until the
+                <bread>crust</bread> is dark brown. Try to <act>minimize the amount of time the
+                    <tool>oven door</tool> is open.</act> The <bread>bread</bread> is done when its
+            internal temperature registers <m n="205">205 degrees</m> on an <tool>instant-read
+                thermometer</tool> and the <bread>loaf</bread> sounds hollow when <act>knocked on
+                the underside.</act></s>
+        <s><act>Transfer</act> the <bread>loaf</bread> to a <tool>wire rack</tool> to
+                <act>cool</act> for <t n="1+">at least 1 hour</t> before <act>cutting.</act></s>
+    </dirlist>
+</root>
