@@ -58,3 +58,4 @@ Replace with:
 ```
 \1<runtime unit="min">\2</runtime>\3
 ```
+Manually wrap document with <xml> or <root> element
