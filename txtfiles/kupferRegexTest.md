@@ -76,7 +76,7 @@ Replace with:
 <root>\0</root>
 ```
 
-Manually remove all tags from line 508 that are not <sd> or </sd>
+Manually remove all tags from line 508 that are not ```<sd>``` or ```</sd>```
 
 5.
 
