@@ -1,3 +1,5 @@
+Graydon Kupfer
+
 1a. "Dot matches all" should be turned on so that the <sp> tags are wrapped around the entirety of each speech.
 
 1b. ```\1``` and ```\2``` are the expressions in the parentheses. ```\1``` is ```(.+?)```, which finds all of the text in the document. ```\2``` is ```(\n\n)```, which finds any instance of two new lines in a row. Each speech is surrounded by two new lines on either side, so ```</sp>``` should go between ```\1``` and ```\2``` in the Replace window.
