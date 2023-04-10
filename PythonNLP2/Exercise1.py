@@ -1,5 +1,5 @@
 import spacy
-nlp = spacy.cli.download("en_core_web_sm")
+# nlp = spacy.cli.download("en_core_web_sm")
 nlp = spacy.load('en_core_web_sm')
 
 DHshowfull = open('DHshowfull.txt', 'r', encoding='utf8')

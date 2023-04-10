@@ -1,0 +1,188 @@
+"" : PERSON
+""%Marnie : ORG
+""*gulp : PERSON
+""Abby : ORG
+""An island : PERSON
+""Beware : PERSON
+""Dad : PERSON
+""Dinner : PERSON
+""Don't : PERSON
+""Even : PERSON
+""Everyone : ORG
+""Havin : ORG
+""Hmm : PERSON
+""I'll : ORG
+""I'll wait : ORG
+""I'm : ORG
+""It : PERSON
+""Let's : ORG
+""Little : ORG
+""No : PERSON
+""Oh : PERSON
+""Our : PERSON
+""Our house : PERSON
+""Please : ORG
+""Sebastian : PERSON
+""So : ORG
+""Sorry : PERSON
+""The : ORG
+""The beach : GPE
+""This house : ORG
+""Ugh : PERSON
+""We : GPE
+""Well : ORG
+""Winter : PERSON
+""Yeah : NORP
+""You : PERSON
+""Your : NORP
+$11""I : ORG
+$6""I'll : NORP
+$8#$b#Yeah : PERSON
+$a"" : PERSON
+$b#I'm glad.^Is : ORG
+$h""Are : PERSON
+$h""Maru : PERSON
+$h|You : PERSON
+$k#$e#You : PERSON
+$s""#$1 marnieAnimalSal#I : PERSON
+$s""Well : ORG
+$u"" : PERSON
+$u""NO : PERSON
+$u#$b#Oh : ORG
+/Ah : PERSON
+767 : ORG
+@!$h""I : ORG
+@!$h#$e#I'm : PERSON
+@!^Hi Auntie : PERSON
+@$h^You're : PERSON
+@.#$e#However : GPE
+@.#$e#I : ORG
+@.#$e#Is : ORG
+@.#$e#It : PERSON
+@.#$e#That : PERSON
+@.$h#$b#You : PERSON
+@.$s""Welwick : PERSON
+@.^Hi : PERSON
+@.^Oh : PERSON
+@?""Hmm : ORG
+@?""I'm : ORG
+@?""You : ORG
+@?#$e#It's : ORG
+@?$a#$b#I'm : ORG
+Abby : PERSON
+Abigail : PERSON
+Aghh : PERSON
+Ahoy : PERSON
+Alex : PERSON
+Belinda : PERSON
+Calico : GPE
+Calico Desert : LOC
+Caroline : PERSON
+Caroline1#Hmmm : GPE
+Clint : PERSON
+Community Center : LOC
+Cook : PERSON
+Dad : PERSON
+David : PERSON
+David Jr. : PERSON
+Deep : PERSON
+Demetrius : PERSON
+Dusty : PERSON
+Dwarves : ORG
+Eau de : ORG
+Elliott : PERSON
+Emily : PERSON
+Enthusiast\" : ORG
+Evelyn : PERSON
+Fantasy#$r 62 : PERSON
+Farm : LOC
+Farmer : PERSON
+George : PERSON
+Grams : PERSON
+Grandma : PERSON
+Grandpa : PERSON
+Granny : PERSON
+Gunther : PERSON
+Gus : PERSON
+Haley : PERSON
+HaleyClothes#I've : ORG
+Harvey : PERSON
+How nice!$h""Hi : ORG
+Jas : PERSON
+Joja : PERSON
+Joja Cola : ORG
+Joja Mart : ORG
+Joja#The : NORP
+Joja#Things : ORG
+JojaMart : LOC
+Kent : PERSON
+Lewis : PERSON
+Linus : PERSON
+LinusFall1#Some : ORG
+LinusHeron#I : PERSON
+MARILDA : PERSON
+Marnie : PERSON
+Maru : PERSON
+Mayor : PERSON
+Mon clown#A : PERSON
+Mullner : PERSON
+Oasis : LOC
+Pam : PERSON
+Pelican : NORP
+Pelican Town : LOC
+Penny : PERSON
+Pierre : PERSON
+Prairie King' : ORG
+Robin : PERSON
+RobinMaru#Maru : NORP
+Saloon : LOC
+Sam : PERSON
+Sammy : PERSON
+Sandy : PERSON
+Sebastian : PERSON
+Sebby : PERSON
+Shane : PERSON
+ShaneJOSH#I'm : ORG
+Spirit : ORG
+Stardew : PERSON
+Stardew Red : LOC
+Stardew Valley : LOC
+Stardew Valley.#$e#I : ORG
+Stardrop : ORG
+The Pelicans of Paradise'... : ORG
+Tunnelers : NORP
+Unghhh : ORG
+Valley : LOC
+Vincent : PERSON
+Waddya : PERSON
+Willy : PERSON
+Wizard : PERSON
+Yoba : PERSON
+Zuzu : PERSON
+Zuzu City : GPE
+Zuzu City.#$e#City : ORG
+\"get : ORG
+aaah-mazing!$h""Phew : PERSON
+arctic : LOC
+bad#Shopping#$r : GPE
+blush*$h""Oh : PERSON
+books#$r : ORG
+carrot brulee : PERSON
+dwellin : GPE
+fed : ORG
+gridball : ORG
+kid2 : ORG
+lot#$r : PERSON
+mar : PERSON
+mycorhizal growth?$u#$b#Oh : ORG
+rumble*$h""One : PERSON
+sigh*#$e#Any : NORP
+smack*$7""You : PERSON
+stardrop : ORG
+the Fern Islands!#$e#Do : LOC
+the Gotoro Empire : LOC
+the Joja Co.'s : ORG
+the Joja Mart : ORG
+the Shadow People : ORG
+you something.^Hey, : ORG
+you#$r : ORG
