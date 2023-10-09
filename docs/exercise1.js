@@ -2,7 +2,7 @@ window.addEventListener('DOMContentLoaded',init,false);
 
 function init() {
     //alert ('If you are reading this, that means the onclick message worked!');
-    var button = document.getElementsByTagName("button")
+    var button = document.getElementById("colorToggle")
 button.addEventListener('click', changeColor,false)
 //var body = document.getElementsByTagName("body")
 //body.addEventListener('click', changeColor,false)
