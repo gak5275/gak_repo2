@@ -2,8 +2,8 @@ window.addEventListener('DOMContentLoaded',init,false);
 
 function init() {
     alert ('If you are reading this, that means the onclick message worked!');
-    var buttons = document.getElementsByTagName("button")
-buttons.addEventListener('click', changeColor,false)
+    var button = document.getElementsByTagName("button")
+button.addEventListener('click', changeColor,false)
 //var body = document.getElementsByTagName("body")
 //body.addEventListener('click', changeColor,false)
 }
