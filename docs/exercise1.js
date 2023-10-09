@@ -1,7 +1,7 @@
 window.addEventListener('DOMContentLoaded',init,false);
 
 function init() {
-    alert ('If you are reading this, that means the onclick message worked!');
+    //alert ('If you are reading this, that means the onclick message worked!');
     var button = document.getElementsByTagName("button")
 button.addEventListener('click', changeColor,false)
 //var body = document.getElementsByTagName("body")
@@ -9,6 +9,7 @@ button.addEventListener('click', changeColor,false)
 }
 
 function changeColor() {
-var colorMe1 = document.getElementById("colorToggle") 
-{colorMe1.style.backgroundColor = "green";}
+    var colorMe1 = document.getElementById("colorToggle")
+    {colorMe1.style.backgroundColor = "green";
+    }
 }
