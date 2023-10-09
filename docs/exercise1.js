@@ -1,15 +1,19 @@
 window.addEventListener('DOMContentLoaded',init,false);
 
 function init() {
-    //alert ('If you are reading this, that means the onclick message worked!');
-    var button = document.getElementById("colorToggle")
-button.addEventListener('click', changeColor,false)
-//var body = document.getElementsByTagName("body")
-//body.addEventListener('click', changeColor,false)
+    var buttons = document.getElementsByTagName("button")
+buttons[0].addEventListener('click', changeGreen,false)
+buttons[0].addEventListener('click', changeRed,false)
 }
 
-function changeColor() {
-    var colorMe1 = document.getElementById("colorToggle")
+function changeGreen() {
+    var colorMe1 = document.getElementById("colorGreen")
     {colorMe1.style.backgroundColor = "green";
+    }
+}
+
+function changeRed() {
+    var colorMe1 = document.getElementById("colorRed")
+    {colorMe1.style.backgroundColor = "red";
     }
 }
