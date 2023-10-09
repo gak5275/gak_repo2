@@ -13,7 +13,7 @@ function changeGreen() {
 }
 
 function changeRed() {
-    var colorMe1 = document.getElementById("colorRed")
-    {colorMe1.style.backgroundColor = "red";
+    var colorMe2 = document.getElementById("colorRed")
+    {colorMe2.style.backgroundColor = "red";
     }
 }
