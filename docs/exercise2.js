@@ -1,4 +1,6 @@
 window.addEventListener('DOMContentLoaded',init,false);
+window.addEventListener('DOMContentLoaded',init0,false);
+
 
 function init0() {
     var buttons = document.getElementsByTagName("button");
@@ -60,3 +62,4 @@ function init() {
     }
 }
 window.addEventListener('DOMContentLoaded', init, false);
+window.addEventListener('DOMContentLoaded',init0,false);
