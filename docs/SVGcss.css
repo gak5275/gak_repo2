@@ -7,21 +7,21 @@
 {
     transition: all 1s ease;
 }
-svg:hover #bluerect {
+#bluerect:hover {
     transform: translate(0%, -10%)
 }
-svg:hover #purplerect {
+#purplerect:hover {
     transform: translate(0%, -20%)
 }
-svg:hover #redrect {
+#redrect:hover {
     transform: translate(0%, -30%)
 }
-svg:hover #greenrect {
+#greenrect:hover {
     transform: translate(0%, -40%)
 }
-svg:hover #orangerect {
+#orangerect:hover {
     transform: translate(0%, -50%)
 }
-svg:hover #yellowrect {
+#yellowrect:hover {
     transform: translate(0%, -60%)
 }
