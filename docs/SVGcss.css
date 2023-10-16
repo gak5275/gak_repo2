@@ -8,20 +8,20 @@
     transition: all 1s ease;
 }
 #bluerect:hover {
-    transform: translate(0%, -10%)
+    transform: translate(0%, -50%)
 }
 #purplerect:hover {
-    transform: translate(0%, -20%)
+    transform: translate(0%, -50%)
 }
 #redrect:hover {
-    transform: translate(0%, -30%)
+    transform: translate(0%, -50%)
 }
 #greenrect:hover {
-    transform: translate(0%, -40%)
+    transform: translate(0%, -50%)
 }
 #orangerect:hover {
     transform: translate(0%, -50%)
 }
 #yellowrect:hover {
-    transform: translate(0%, -60%)
+    transform: translate(0%, -50%)
 }
